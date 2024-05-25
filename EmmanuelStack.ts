@@ -18,7 +18,7 @@ export class EmmanuelStack {
     /*
     * Checks if stack is empty.
     */
-    public get isEmpty() {     
+    public get isEmpty(): boolean {     
       return this.stackAsList.length == 0
     }
   

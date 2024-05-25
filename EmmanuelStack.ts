@@ -23,7 +23,7 @@ export class EmmanuelStack {
     }
   
     /*
-    * returns stack size
+    * It returns stack size
     */
     public get size() {
       return this.stackAsList.length
